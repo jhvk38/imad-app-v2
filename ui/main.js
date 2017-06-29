@@ -21,6 +21,6 @@ button.onclick=function(){
  };
    //Make the Request 
    request.open('GET','http://jhvk38.imad.hasura-app.io/counter',true);
-   request.send=(null);
+   request.send(null);
     
 };
