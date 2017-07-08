@@ -41,6 +41,10 @@ app.get('/ui/try.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'try.js'));
 });
 
+app.get('/ui/clownfish.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'clownfish.png'));
+});
+
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
