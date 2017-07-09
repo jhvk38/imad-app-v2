@@ -16,4 +16,7 @@ body{
 header{
     background:#35424a;
     color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#eh491d;
 }
