@@ -132,6 +132,13 @@ header a:hover{
     width:90px;
 }
 
+aside #sidebar{
+    float:right;
+    width:30px;
+    margin-top:10px;
+}
+
+
 footer{
     padding:20px;
     margin-top:20px;
