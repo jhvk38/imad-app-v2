@@ -89,9 +89,13 @@ header a:hover{
     background:#35424a;
 }
 
+#newsletter h1{
+    float:left;
+}
 
-
-
+#newsletter form{
+    float:right;
+}
 
 
 
