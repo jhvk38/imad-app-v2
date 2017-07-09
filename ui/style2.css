@@ -64,3 +64,10 @@ body{
     font-size:36px;
     margin-left:50px;
 }
+
+#main{
+    transition:margin-left 0.5s;
+    padding:20px;
+    overflow:hidden;
+    width:100%;
+}
