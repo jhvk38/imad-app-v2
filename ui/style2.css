@@ -19,3 +19,13 @@ body{
     text-decoration:none;
     font-size:17px;
 }
+
+.navbar ul{
+    padding:8px 0 0 0;
+    list-style:none;
+}
+
+.navbar a:hover{
+    background-color:#ddd;
+    color:#000;
+}
