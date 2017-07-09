@@ -76,5 +76,5 @@ body{
     .navbar-nav{display:none}
 }
 @media(min-width:568px){
-    .open-slide{display:none}
+    /*.open-slide{display:none}*/
 }
