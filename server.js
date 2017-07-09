@@ -69,6 +69,9 @@ app.get('/ui/logo_brush.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'logo_brush.png'));
 });
 
+app.get('/ui/showcase.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'showcase.jpg'));
+});
 app.get('/ui/head.jpeg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'head.jpeg'));
 });
