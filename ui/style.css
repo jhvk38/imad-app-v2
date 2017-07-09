@@ -27,6 +27,12 @@ ul{
     color:#ffffff;
 }
 
+.dark{
+    padding:15px;
+    background:#e8491d;
+    color:#ffffff;
+}
+
 /* Header */
 header{
     background:#35424a;
