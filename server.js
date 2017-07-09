@@ -65,8 +65,8 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
-app.get('/ui/moviemain.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'moviemain.js'));
+app.get('/ui/mainmovie.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'mainmovie.js'));
 });
 
 app.get('/ui/try.js', function (req, res) {
