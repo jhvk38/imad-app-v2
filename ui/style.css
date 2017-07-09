@@ -191,7 +191,7 @@ footer{
         margin-top:40px;
     }
     
-    #newsletter button, quote button{
+    #newsletter button, .quote button{
         display:block;
         width:100%;
     }
