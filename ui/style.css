@@ -138,6 +138,11 @@ aside#sidebar{
     margin-top:10px;
 }
 
+aricle#main-col{
+    float:left;
+    width:65%;
+}
+
 
 footer{
     padding:20px;
