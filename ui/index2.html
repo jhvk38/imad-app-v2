@@ -19,7 +19,7 @@
                 </a>
             </span>
             
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" id="nav-menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
@@ -43,10 +43,13 @@
             function openSlideMenu(){
                 document.getElementById('side-menu').style.width='250px';
                 document.getElementById('main').style.marginLeft='250px';
+                document.getElementById('nav-menu').style.marginLeft='250px';
+                
             }
             function closeSlideMenu(){
                 document.getElementById('side-menu').style.width='0';
                 document.getElementById('main').style.marginLeft='0';
+                document.getElementById('nav-menu').style.marginLeft='0';
             }
         </script>
     </body>
