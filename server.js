@@ -15,6 +15,14 @@ app.get('/tryout.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'tryout.html'));
 });
 
+app.get('/about.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'about.html'));
+});
+
+app.get('/services.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'services.html'));
+});
+
 var counter=0;
 app.get('/counter',function(req,res){
    counter++;
