@@ -27,6 +27,14 @@ app.get('/index2.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index2.html'));
 });
 
+app.get('/movieinfo.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'movieinfo.html'));
+});
+
+app.get('/movie.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'movie.html'));
+});
+
 var counter=0;
 app.get('/counter',function(req,res){
    counter++;
@@ -49,8 +57,16 @@ app.get('/ui/style2.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style2.css'));
 });
 
+app.get('/ui/style3.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'style3.css'));
+});
+
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+});
+
+app.get('/ui/moviemain.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'moviemain.js'));
 });
 
 app.get('/ui/try.js', function (req, res) {
