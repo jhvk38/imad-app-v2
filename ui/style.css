@@ -92,6 +92,8 @@ header a:hover{
     font-size:20px;
 }
 
+/*newsletter*/
+
 #newsletter{
     padding:15px;
     color:white;
@@ -113,9 +115,16 @@ header a:hover{
     width:250px;
 }
 
+/* boxes*/
 
+#boxes{
+    margin-top:20px;
+}
 
-
+#boxes .box{
+    float:left;
+    width:30%;
+}
 
 
 
