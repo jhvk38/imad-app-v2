@@ -195,6 +195,10 @@ footer{
         display:block;
         width:100%;
     }
+    #newsletter form input[type="email"]{
+        width:100%;
+        margin-bottom:5px;
+    }
         
     
 }
