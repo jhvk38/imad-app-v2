@@ -23,6 +23,10 @@ app.get('/services.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'services.html'));
 });
 
+app.get('/index2.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'index2.html'));
+});
+
 var counter=0;
 app.get('/counter',function(req,res){
    counter++;
