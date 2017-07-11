@@ -7,5 +7,11 @@ $(document).ready(()=>{
 });
 
 function getMovies(searchText){
-    console.log(searchText);
+    axios.get('http://www.omdiapi.com?s='+searchText).then((response)=>{
+        console.log(response);
+    })
+    .catch((err)=>{
+        console.log(err);
+    });
+    
 }
