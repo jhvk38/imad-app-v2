@@ -7,7 +7,7 @@ $(document).ready(()=>{
 });
 
 function getMovies(searchText){
-    axios.get('http://www.omdiapi.com?s='+searchText).then((response)=>{
+    axios.get('http://www.omdbapi.com?s='+searchText).then((response)=>{
         console.log(response);
     })
     .catch((err)=>{
