@@ -66,6 +66,10 @@ body, html {
     text-transform:uppercase;
 }
 
+.ptext .border .trans {
+    background-color:transparent;
+}
+
 .ptext .border {
     background-color:#111;
     color:#fff;
