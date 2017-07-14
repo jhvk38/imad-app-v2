@@ -15,6 +15,10 @@ body, html {
     background-size:cover;
     background-repeat:no-repeat;
     
+    /*
+    fixed=parallax
+    scroll-normal
+    */
     background-attachment:fixed;
 }
 
@@ -34,4 +38,9 @@ body, html {
     background-image:url('/ui/image3.jpg');
     min-height:400px;
     
+}
+
+.section {
+    text-align:center;
+    padding:50px 80px;
 }
