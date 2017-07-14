@@ -55,6 +55,10 @@ app.get('/movie.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'movie.html'));
 });
 
+app.get('/parallax.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'parallax.html'));
+});
+
 var counter=0;
 app.get('/counter',function(req,res){
    counter++;
