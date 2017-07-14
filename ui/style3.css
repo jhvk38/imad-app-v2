@@ -8,6 +8,14 @@ body, html {
     color:#666;
 }
 
+.pimg1, .pimg2, .pimg3 {
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
 .pimg1{
     background-image:url('/ui/image1.jpg');
     min-height:100%;
