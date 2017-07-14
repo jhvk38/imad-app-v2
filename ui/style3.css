@@ -65,3 +65,9 @@ body, html {
     letter-spacing:8px;
     text-transform:uppercase;
 }
+
+.ptext .border {
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+}
