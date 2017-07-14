@@ -161,6 +161,18 @@ app.get('/ui/logo_html.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'logo_html.png'));
 });
 
+app.get('/ui/image1.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'image1.jpg'));
+});
+
+app.get('/ui/image2.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'image2.jpg'));
+});
+
+app.get('/ui/image3.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'image3.jpg'));
+});
+
 app.get('/ui/logo_css.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'logo_css.png'));
 });
@@ -171,7 +183,7 @@ app.get('/ui/logo_brush.png', function (req, res) {
 
 app.get('/ui/showcase.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'showcase.jpg'));
-});
+  });
 app.get('/ui/head.jpeg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'head.jpeg'));
 });
